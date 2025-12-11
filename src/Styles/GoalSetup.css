@@ -1,0 +1,91 @@
+.goal-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.goal-message {
+  text-align: center;
+  color: #6a5acd;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.goal-card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 14px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+}
+
+.goal-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0d2b5c;
+  margin-bottom: 22px;
+}
+
+.goal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.goal-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.goal-row span {
+  color: #555;
+  font-weight: 600;
+}
+
+.goal-btn {
+  width: 100%;
+  margin-top: 22px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.goal-btn:hover {
+  background: #1878d9;
+}
+
+.goal-subtext {
+  text-align: center;
+  font-size: 1.15rem;
+  color: #444;
+  margin-bottom: 18px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .goal-card {
+    padding: 20px;
+  }
+
+  .goal-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .goal-title {
+    font-size: 1.4rem;
+  }
+}

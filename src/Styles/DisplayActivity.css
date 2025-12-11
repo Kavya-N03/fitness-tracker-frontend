@@ -1,0 +1,77 @@
+.table-container {
+  overflow-x: auto;
+  border-radius: 0.8vw;
+  background: #e2eff0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
+}
+
+.activity-title {
+  font-size: 1.45vw;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1vw;
+}
+
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.activity-table thead {
+  background: #a2f7ac;
+}
+
+.activity-table th {
+  padding: 1vw;
+  text-align: center;
+  font-size: 1.15vw;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 0.3px;
+}
+
+.activity-table td {
+  padding: 1vw;
+  text-align: center;
+  font-size: 1.1vw;
+  font-weight: 550;
+  color: #222;
+  background: #f8fafa;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.activity-table tbody tr:hover td {
+  background: #f1e290;
+  color: #111;
+}
+
+.act-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6vw;
+  font-weight: 550;
+}
+
+.icon {
+  font-size: 1.4vw;
+}
+
+.no-data {
+  padding: 1vw;
+  text-align: center;
+  font-size: 1.05vw;
+  color: #777;
+}
+
+.error-box {
+  background: #ffe4e4;
+  border-left: 6px solid #ff4d4d;
+  padding: 1vw;
+  border-radius: 0.6vw;
+  font-size: 1vw;
+  font-weight: 500;
+  color: #b30000;
+  margin-bottom: 1vw;
+}

@@ -1,0 +1,82 @@
+.dashboard-container {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(237, 230, 230);
+  padding-bottom: 3vw;
+  font-family: "Inter", sans-serif;
+  border-radius: 5%;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.main-dashboard-title {
+  font-size: 2vw;
+  font-weight: 600;
+  color: #5F6368;;
+  margin-bottom: 0.5vw;
+}
+
+.welcome-subtext {
+  font-size: 1.2vw;
+  color: #5F6368;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.dashboard-content {
+  width: 80%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vw;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 1.2vw;
+  padding: 2vw;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+  font-size: 1.6vw;
+  margin-bottom: 1.2vw;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+.summary-card {
+  background: linear-gradient(145deg, #e3fcec, #ffffff);
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5vw;
+}
+
+.summary-item {
+  background: #addff4;
+  border-radius: 1vw;
+  padding: 1.2vw;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.label {
+  font-size: 1vw;
+  color: #666;
+  font-weight: 500;
+}
+
+.value {
+  font-size: 1.45vw;
+  font-weight: 700;
+  margin-top: 0.5vw;
+  color: #1b1b1e;
+}

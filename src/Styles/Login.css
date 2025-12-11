@@ -1,0 +1,126 @@
+.login-container {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 28px 32px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e6e6e6;
+  font-family: "Inter", sans-serif;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 26px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0d2b5c;
+}
+
+.login-error {
+  text-align: center;
+  color: red;
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.login-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.login-row label {
+  width: 150px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+}
+
+.login-row input {
+  flex: 1;
+  padding: 11px 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1.3px solid #cfcfcf;
+  border-radius: 8px;
+  background: #fafafa;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.login-row input:focus {
+  border-color: #1e90ff;
+  background: #ffffff;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.25);
+}
+
+.login-btn {
+  margin-top: 12px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #1878d9;
+}
+
+.login-register-link {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.login-register-link a {
+  color: #1e90ff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.login-register-link a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+  .login-container {
+    padding: 22px 20px;
+    margin: 25px 16px;
+  }
+
+  .login-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .login-row label {
+    width: 100%;
+    margin-bottom: 6px;
+  }
+
+  .login-row input {
+    width: 100%;
+  }
+
+  .login-title {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,129 @@
+.meal-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.meal-title {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #0d2b5c;
+  margin-bottom: 20px;
+}
+
+.meal-message {
+  text-align: center;
+  color: red;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.meal-list-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.meal-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  background: white;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+.meal-card:hover {
+  border-color: #1e90ff;
+  background: #f6faff;
+}
+
+.meal-icon {
+  font-size: 2rem;
+  color: #1e90ff;
+}
+
+.meal-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.meal-form-card {
+  margin-top: 25px;
+  padding: 22px;
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.selected-text {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0d2b5c;
+  margin-bottom: 18px;
+}
+
+.meal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  padding: 12px;
+  border: 1.3px solid #cfcfcf;
+  border-radius: 10px;
+  background: #fafafa;
+  transition: 0.25s;
+  font-weight: 600;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #1e90ff;
+  background: white;
+  box-shadow: 0 0 6px rgba(30,144,255,0.3);
+}
+
+.save-btn {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #1e90ff;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 6px;
+}
+
+.save-btn:hover {
+  background: #1878d9;
+}

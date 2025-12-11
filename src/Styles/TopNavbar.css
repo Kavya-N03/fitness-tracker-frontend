@@ -1,0 +1,17 @@
+.top-navbar {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.main-greeting {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 700;
+  color: #555;;
+}
+
+.sub-text {
+  font-size: 16px;
+  margin-top: 6px;
+  color: #555;
+}

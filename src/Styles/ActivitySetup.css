@@ -1,0 +1,149 @@
+.activity-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.activity-title {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #0d2b5c;
+  margin-bottom: 20px;
+}
+
+.profile-reminder {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 0.95rem;
+}
+
+.link-btn {
+  margin-left: 10px;
+  padding: 6px 10px;
+  background: #1e90ff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.activity-message {
+  text-align: center;
+  font-weight: 600;
+  color: #1878d9;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.activity-list-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.activity-card-vertical {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  background: white;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+.activity-card-vertical:hover {
+  border-color: #1e90ff;
+  background: #f6faff;
+}
+
+.activity-card-vertical.selected {
+  border-color: #1e90ff;
+  background: #e9f3ff;
+}
+
+.activity-icon-vertical {
+  font-size: 2rem;
+}
+
+.activity-label-vertical {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.activity-form-card {
+  margin-top: 25px;
+  padding: 22px;
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.selected-text {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0d2b5c;
+  margin-bottom: 18px;
+}
+
+.activity-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1.3px solid #cfcfcf;
+  border-radius: 10px;
+  background: #fafafa;
+  transition: 0.25s;
+  font-weight: 700;
+  color:#222;
+}
+
+.form-group input:focus {
+  border-color: #1e90ff;
+  background: white;
+  box-shadow: 0 0 6px rgba(30,144,255,0.3);
+}
+
+.save-btn {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #1e90ff;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 6px;
+}
+
+.save-btn:hover {
+  background: #1878d9;
+}

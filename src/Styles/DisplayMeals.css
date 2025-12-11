@@ -1,0 +1,54 @@
+.meal-table-container {
+  overflow-x: auto;
+  border-radius: 0.8vw;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
+}
+
+.meal-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.meal-table thead {
+  background: #a2f7ac;
+}
+
+.meal-table th {
+  padding: 1vw;
+  text-align: center;
+  font-size: 1.15vw;
+  font-weight: 600;
+  color: #444;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.meal-table td {
+  padding: 1vw;
+  text-align: center;
+  font-size: 1.1vw;
+  font-weight: 550;
+  color: #222;
+  background: #f8fafa;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.meal-table tbody tr:hover td {
+  background: #f1e290;
+  color: #111;
+}
+
+.meal-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6vw;
+  font-weight: 550;
+}
+
+.meal-icon {
+  font-size: 1.4vw;
+}
