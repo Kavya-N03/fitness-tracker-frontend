@@ -8,7 +8,7 @@ import {
   FaUser, 
 } from "react-icons/fa";
 import { IoMdLogOut } from "react-icons/io";
-import useLogout from "../../Components/useLogout"
+import useLogout from "../../Components/useLogout";
 import "../../Styles/BottomNavBar.css";
 
 function BottomNavBar() {
