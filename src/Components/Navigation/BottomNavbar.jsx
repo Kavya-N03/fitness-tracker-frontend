@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { IoMdLogOut } from "react-icons/io";
 import useLogout from "../../Components/useLogout"
-import "../../styles/BottomNavBar.css";
+import "../../Styles/BottomNavBar.css";
 
 function BottomNavBar() {
   const location = useLocation();
