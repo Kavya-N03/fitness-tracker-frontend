@@ -35,7 +35,7 @@ The application helps users set fitness goals, log daily activities and meals, a
 
 ---
 
-## 🛠 Technologies Used
+**Technologies Used
 
 - **Frontend:** React
 - **Routing:** React Router
